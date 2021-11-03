@@ -6,14 +6,33 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
   /* parameters for the header section */
+}
+
+.logo_place_header {
+  width: 154px;
+  position: absolute;
+  z-index: 5;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 730px;
+  margin-left: 64px;
+  z-index: 4;
+  line-height: 94px;
+  font-size: 102px;
+  font-weight: bold;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
