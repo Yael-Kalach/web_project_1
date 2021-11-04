@@ -30,7 +30,6 @@
 
 .header__title {
   width: 730px;
-  position: absolute;
   left: 64px;
   display: flex;
   justify-content: space-around;
