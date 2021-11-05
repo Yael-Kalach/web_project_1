@@ -12,14 +12,14 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
   background-color: #f2f2f2;
 }
 
 .logo {
   width: 154px;
+  height: 31px;
 }
 
 .logo_place_header {
@@ -32,10 +32,10 @@
 .header__title {
   width: 730px;
   z-index: 2;
-  line-height: 94px;
+  line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin: auto 64px;
+  margin-left: 64px;
 }
 
 .header__subtitle {
@@ -76,8 +76,6 @@
 .description {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   position: relative;
   margin: 100px auto;
 }
@@ -108,6 +106,7 @@
 
 .two-columns__paragraph {
   font-weight: normal;
+  margin: 0 auto 30px;
 }
 
 .two-columns__span-accent {
@@ -184,12 +183,12 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
-  height: 790px;
+  min-height: 790px;
 }
 
 .feyman__title {
   width: 775px;
-  margin: 100px auto 45px;
+  margin: 100px auto 70px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -197,7 +196,7 @@
 }
 
 .feyman__subtitle {
-  margin: 45px auto;
+  margin: 0 auto 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -212,7 +211,7 @@
   color: #2f80ed;
   text-decoration: none;
   position: absolute;
-  top: 395px;
+  top: 50%;
   right: 48px;
 }
 
@@ -253,13 +252,13 @@
   z-index: 0;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -124px;
   width: 660px;
   height: 636px;
 }
 
 .footer {
-  min-height: 350px;
+  min-height: 250px;
   background-color: #1f1f1f;
   display: flex;
   flex-direction: row;
@@ -281,7 +280,7 @@
   margin: 60px auto 40px;
 }
 
-.footer__column_content_copyright {
+.footer__column-content_copyright {
   flex-basis: 711px;
   min-height: 350px;
   display: flex;
@@ -328,4 +327,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__column-link_socials {
+  text-decoration: none;
 }
