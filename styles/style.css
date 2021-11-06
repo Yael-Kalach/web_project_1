@@ -223,6 +223,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden
 }
 
 .section-title_theme_dark {
