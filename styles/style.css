@@ -289,12 +289,14 @@
   margin: 60px auto 40px;
 }
 
-.footer__column_content {
+.footer__column {
   min-height: 250px;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .footer__column_content_copyright {
