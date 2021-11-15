@@ -1,0 +1,10 @@
+@import url(./__paragraph/two-columns__paragraph.css);
+
+@import url(./__span-accent/two-columns__span-accent.css);
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+}

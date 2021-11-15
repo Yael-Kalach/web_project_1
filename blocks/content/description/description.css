@@ -1,0 +1,6 @@
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 100px auto;
+}
