@@ -66,11 +66,11 @@
 
 @import url(../blocks/content/feynman/feynman.css);
 
-@import url(../blocks/content/feynman/__title/feyman__title.css);
+@import url(../blocks/content/feynman/__title/feynman__title.css);
 
-@import url(../blocks/content/feynman/__subtitle/feyman__subtitle.css);
+@import url(../blocks/content/feynman/__subtitle/feynman__subtitle.css);
 
-@import url(../blocks/content/feynman/__link/feyman__link.css);
+@import url(../blocks/content/feynman/__link/feynman__link.css);
 
 @import url(../blocks/content/digits/digits.css);
 
@@ -132,4 +132,4 @@
 
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
 
-@import url(../blocks/root/__animation/_rotate/root__animation_rotate.css);
+@import url(../blocks/root/rotation/rotation.css);

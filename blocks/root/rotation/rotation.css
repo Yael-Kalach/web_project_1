@@ -1,4 +1,4 @@
-.root__animation_rotate {
+.rotation {
   animation: rotation 20s linear backwards infinite;
 }
 
