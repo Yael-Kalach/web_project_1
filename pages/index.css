@@ -28,7 +28,7 @@
 
 @import url(../blocks/header/header.css);
 
-@import url(../blocks/header/logo/_place/_header/logo_place_header.css);
+@import url(../blocks/root/logo/_place/_header/logo_place_header.css);
 
 @import url(../blocks/header/__title/header__title.css);
 
@@ -46,15 +46,15 @@
 
 @import url(../blocks/content/techniques/techniques.css);
 
-@import url(../blocks/content/techniques/cards/cards.css);
+@import url(../blocks/root/cards/cards.css);
 
-@import url(../blocks/content/techniques/cards/__item/cards__item.css);
+@import url(../blocks/root/cards/__item/cards__item.css);
 
-@import url(../blocks/content/techniques/cards/__images/cards__image.css);
+@import url(../blocks/root/cards/__images/cards__image.css);
 
-@import url(../blocks/content/techniques/cards/__title/cards__title.css);
+@import url(../blocks/root/cards/__title/cards__title.css);
 
-@import url(../blocks/content/techniques/cards/__description/cards__description.css);
+@import url(../blocks/root/cards/__description/cards__description.css);
 
 @import url(../blocks/content/video/video.css);
 
@@ -98,13 +98,13 @@
 
 @import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css);
 
-@import url(../blocks/content/kaufman/section-title/_theme/_dark/section-title_theme_dark.css);
+@import url(../blocks/root/section-title/_theme/_dark/section-title_theme_dark.css);
 
-@import url(../blocks/content/kaufman/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
+@import url(../blocks/root/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
 
-@import url(../blocks/content/kaufman/table/_theme/_dark/table_theme_dark.css);
+@import url(../blocks/root/table/_theme/_dark/table_theme_dark.css);
 
-@import url(../blocks/content/kaufman/table/__cell/_theme/_dark/table__cell_theme_dark.css);
+@import url(../blocks/root/table/__cell/_theme/_dark/table__cell_theme_dark.css);
 
 @import url(../blocks/content/resources/resources.css);
 
@@ -118,11 +118,11 @@
 
 @import url(../blocks/footer/__column/footer__column.css);
 
-@import url(../blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 
 @import url(../blocks/footer/__author/footer__author.css);
 
-@import url(../blocks/footer/logo/_place/_footer/logo_place_footer.css);
+@import url(../blocks/root/logo/_place/_footer/logo_place_footer.css);
 
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 

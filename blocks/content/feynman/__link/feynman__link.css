@@ -9,3 +9,7 @@
   top: 50%;
   right: 48px;
 }
+
+.feynman__link:hover {
+  color: #1f69c9;
+}

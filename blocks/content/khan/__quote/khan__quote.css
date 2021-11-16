@@ -1,7 +1,8 @@
 .khan__quote {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  width: 790px;
+  max-width: 790px;
   margin-bottom: 36px;
 }
