@@ -4,4 +4,9 @@
   justify-content: flex-start;
   text-decoration: none;
   color: #fff;
+  transition: 0.1s linear 0.1s;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
